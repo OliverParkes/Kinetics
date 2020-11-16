@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+  Speed: 1
 --- !u!1 &2429255082298225599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5176,6 +5177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+  Speed: 0
 --- !u!1 &3890382094836291763
 GameObject:
   m_ObjectHideFlags: 0
