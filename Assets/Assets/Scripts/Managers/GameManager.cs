@@ -34,17 +34,7 @@ public class GameManager : MonoBehaviour
     {
         EnemiesList = Enemies.Length;
     }
-    void Start()
-    {
-        
-
-        for(int i = 0; i > Enemies.Length; i++)
-        {
-            
-
-            Instantiate(EnemyPrefab, Spawns[i]);
-        }
-    }
+    
 
     IEnumerator NewWave()
     {

@@ -6,6 +6,7 @@ public class WeaponSelect : MonoBehaviour
 {
     public GameObject M82;
     public GameObject P90;
+    public GameObject Pchan;
     public GameObject AK47;
     public GameObject ShotGun;
     public GameObject M82UI;
@@ -38,6 +39,11 @@ public class WeaponSelect : MonoBehaviour
         {
             ShotGun.SetActive(true);
             ShotgunUI.SetActive(true);
+        }
+        if(wepEquip == 5)
+        {
+            Pchan.SetActive(true);
+            P90UI.SetActive(true);
         }
     }
 

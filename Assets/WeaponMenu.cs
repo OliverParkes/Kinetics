@@ -22,7 +22,16 @@ public class WeaponMenu : MonoBehaviour
     }
     public void P90()
     {
-        WeaponNumber = 3;
+        int Rand = Random.Range(1, 50);
+        if (Rand == 50)
+        {
+            WeaponNumber = 5;
+        }
+        else
+        {
+            WeaponNumber = 3;
+        }
+        
         SceneManager.LoadScene(3);
     }
     public void Shotgun()
