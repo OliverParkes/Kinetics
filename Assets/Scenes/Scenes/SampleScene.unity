@@ -2646,7 +2646,7 @@ PrefabInstance:
     - target: {fileID: 4623337227399343503, guid: e2fcf60d400cd294c8bef719ef62d485,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4623337227399343503, guid: e2fcf60d400cd294c8bef719ef62d485,
         type: 3}
@@ -6391,23 +6391,6 @@ MonoBehaviour:
   weaponEnemy: {fileID: 1145682873}
   Enemies:
   - {fileID: 510664289}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   Spawns:
   - {fileID: 1563898281}
   - {fileID: 90272492}
@@ -7035,6 +7018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762689446722823808, guid: eb8fd59eaef157f44b2e18a9598e9b32,
+        type: 3}
+      propertyPath: Speed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8851876089203499671, guid: eb8fd59eaef157f44b2e18a9598e9b32,
         type: 3}
