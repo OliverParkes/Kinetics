@@ -97,6 +97,7 @@ public class GameManager : MonoBehaviour
 
             Health.NewRound();
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
 
             Wave = 1;
             TriggerDetection.ResetRound();
